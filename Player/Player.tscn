@@ -4,7 +4,7 @@
 [ext_resource path="res://Player/Player.gd" type="Script" id=2]
 
 [node name="Player" type="Sprite"]
-position = Vector2( 81.6224, 68.0187 )
+position = Vector2( 57.6224, 48.0187 )
 rotation = 1.5708
 texture = ExtResource( 1 )
 script = ExtResource( 2 )
