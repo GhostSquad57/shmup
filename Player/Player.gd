@@ -28,7 +28,7 @@ func _process(delta):
 	
 
 func check_border_collision():
-	var extents = $CollisionShape2D.shape.extents /2
+	var extents = $CollisionShape2D.shape.extents
 	var screen_size = get_viewport().get_visible_rect().size
 	
 	if position.y < 0 + extents.y:
